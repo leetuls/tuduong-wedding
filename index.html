@@ -1,0 +1,595 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Đám cưới Ngọc Tú & Thùy Dương!</title>
+    <meta name="description" content="We would like to invite you to our big day.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Đám cưới Ngọc Tú & Thùy Dương">
+    <meta property="og:description" content="We would like to invite you to our big day.">
+    <meta property="og:image" content="https://wedding.ramswaroop.me/img/hero-min.jpg">
+    <meta property="og:type" content="website">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="td-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="td-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+
+    <script>
+        // load css files from CDN if local node_modules fail
+        function loadCssFromCDN(css) {
+            // create new link tag
+            const link = document.createElement('link');
+            if (css === 'animate.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css';
+            } else if (css === 'font-awesome.css') {
+                link.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+            }
+            link.rel = 'stylesheet';
+
+            // add link tag to head section
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+
+        // load js files from CDN if local node_modules fail
+        function loadJsFromCDN(js) {
+            if (js === 'waypoints.js') {
+                document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"><\/script>');
+            } else if (js === 'jquery.js') {
+                document.write('<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"><\/script>');
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/flatpickr.css">
+    <link rel="stylesheet" href="css/dark.css">
+    <link rel="stylesheet" href="node_modules/animate.css/animate.min.css" onerror="loadCssFromCDN('animate.css')">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" onerror="loadCssFromCDN('font-awesome.css')">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+</head>
+<body id="top">
+<!--[if lt IE 8]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<section class="hero">
+    <section class="navigation">
+        <header>
+            <div class="header-content">
+                <div class="logo"><a href="#"><img src="img/logo.png" alt="Logo"></a></div>
+                <div class="header-nav">
+                    <nav>
+                        <ul class="primary-nav">
+                            <li><a href="#intro">Gặp nhau</a></li>
+                            <li><a href="#events">Sự kiện</a></li>
+                            <li><a href="#instagram">Facebook</a></li>
+                            <li><a href="#eng-pics">Ảnh cưới</a></li>
+                            <li class="hidden-sm hidden-xs"><a href="#video-bg">Thành phố Lạng Sơn</a></li>
+                        </ul>
+                        <ul class="member-actions">
+                            <li><a href="#map" class="login">Địa điểm</a></li>
+                            <li><a href="#rsvp" class="btn-white btn-small">Tham dự</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="navicon">
+                    <a class="nav-toggle" href="#"><span></span></a>
+                </div>
+            </div>
+        </header>
+    </section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="hero-content text-center">
+                    <!--<h1>Ram and Antara</h1>-->
+                    <img src="img/logo-lg.png">
+                    <!--<p class="intro">Ram & Antara are getting hitched!</p>-->
+                    <!--<a href="#" class="btn btn-fill btn-large btn-margin-right">Scroll Down</a> -->
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 hidden-xs"></div>
+            <div class="col-sm-4 hidden-xs text-center"><a href="#rsvp"
+                                                           class="btn btn-accent btn-large rsvp-btn">Tham dự</a></div>
+            <div class="col-sm-4 hidden-xs"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="bii-player" style="display: block;">
+        <div class="wp1 animated fadeInLeft">
+			<label id="playerVolumeOff" style="display: block;">
+				<svg id="svgOff" xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="#fff" class="bi bi-volume-mute-fill" viewBox="0 0 16 16">
+				  <path d="M6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06zm7.137 2.096a.5.5 0 0 1 0 .708L12.207 8l1.647 1.646a.5.5 0 0 1-.708.708L11.5 8.707l-1.646 1.647a.5.5 0 0 1-.708-.708L10.793 8 9.146 6.354a.5.5 0 1 1 .708-.708L11.5 7.293l1.646-1.647a.5.5 0 0 1 .708 0z"></path>
+				</svg>
+			</label>
+            <label style="display: none;" id="playerVolumeOn">
+				<svg id="svgOn" xmlns="http://www.w3.org/2000/svg" width="25" height="27" fill="#fff" class="bi bi-volume-up-fill" viewBox="0 0 16 16">
+				  <path d="M11.536 14.01A8.473 8.473 0 0 0 14.026 8a8.473 8.473 0 0 0-2.49-6.01l-.708.707A7.476 7.476 0 0 1 13.025 8c0 2.071-.84 3.946-2.197 5.303l.708.707z"></path>
+				  <path d="M10.121 12.596A6.48 6.48 0 0 0 12.025 8a6.48 6.48 0 0 0-1.904-4.596l-.707.707A5.483 5.483 0 0 1 11.025 8a5.483 5.483 0 0 1-1.61 3.89l.706.706z"></path>
+				  <path d="M8.707 11.182A4.486 4.486 0 0 0 10.025 8a4.486 4.486 0 0 0-1.318-3.182L8 5.525A3.489 3.489 0 0 1 9.025 8 3.49 3.49 0 0 1 8 10.475l.707.707zM6.717 3.55A.5.5 0 0 1 7 4v8a.5.5 0 0 1-.812.39L3.825 10.5H1.5A.5.5 0 0 1 1 10V6a.5.5 0 0 1 .5-.5h2.325l2.363-1.89a.5.5 0 0 1 .529-.06z"></path>
+				</svg>
+			</label>
+        </div>
+    </div>
+    <div class="down-arrow floating-arrow"><a href="#invitation"><i class="fa fa-angle-down"></i></a></div>
+</section>
+
+<section id="invitation" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Chúng tôi kết hôn</h3>
+                <p>Lễ cưới được tổ chức vào ngày <span id="spanWedding" class="text-red blink-soft">24 tháng 9 năm 2023</span>, trân trọng kính mời bạn đến dự bữa cơm thân mật chung vui cùng gia đình chúng tôi.</p>
+                <div>
+                    <table style="margin-left: auto; margin-right: auto">
+                        <th><a id="likeBtn" href="#" class="like-button">
+                            <?xml version="1.0" encoding="utf-8"?>
+                            <svg width="20" height="20" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M320 1344q0-26-19-45t-45-19q-27 0-45.5 19t-18.5 45q0 27 18.5 45.5t45.5 18.5q26 0 45-18.5t19-45.5zm160-512v640q0 26-19 45t-45 19h-288q-26 0-45-19t-19-45v-640q0-26 19-45t45-19h288q26 0 45 19t19 45zm1184 0q0 86-55 149 15 44 15 76 3 76-43 137 17 56 0 117-15 57-54 94 9 112-49 181-64 76-197 78h-129q-66 0-144-15.5t-121.5-29-120.5-39.5q-123-43-158-44-26-1-45-19.5t-19-44.5v-641q0-25 18-43.5t43-20.5q24-2 76-59t101-121q68-87 101-120 18-18 31-48t17.5-48.5 13.5-60.5q7-39 12.5-61t19.5-52 34-50q19-19 45-19 46 0 82.5 10.5t60 26 40 40.5 24 45 12 50 5 45 .5 39q0 38-9.5 76t-19 60-27.5 56q-3 6-10 18t-11 22-8 24h277q78 0 135 57t57 135z"/></svg>
+                        </a>
+                        </th>
+                        <th>&nbsp;
+                            <div id="fb-share-button">
+                                <svg viewBox="0 0 12 12" preserveAspectRatio="xMidYMid meet">
+                                    <path class="svg-icon-path" d="M9.1,0.1V2H8C7.6,2,7.3,2.1,7.1,2.3C7,2.4,6.9,2.7,6.9,3v1.4H9L8.8,6.5H6.9V12H4.7V6.5H2.9V4.4h1.8V2.8 c0-0.9,0.3-1.6,0.7-2.1C6,0.2,6.6,0,7.5,0C8.2,0,8.7,0,9.1,0.1z"></path>
+                                </svg>
+                                <span>Share</span>
+                            </div>
+                        </th>
+                        <th>&nbsp;
+                            <a class='playBut' id="play-video">
+                                <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In  -->
+                                <svg
+                                     xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                                     x="0px" y="0px" width="50px" height="50px" viewBox="0 0 213.7 213.7" enable-background="new 0 0 213.7 213.7"
+                                     xml:space="preserve">
+
+<polygon class='triangle' id="XMLID_18_" fill="none" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="
+	73.5,62.5 148.5,105.8 73.5,149.1 "/>
+
+                                    <circle class='circle' id="XMLID_17_" fill="none"  stroke-width="7" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="106.8" cy="106.8" r="103.3"/>
+</svg>
+                            </a>
+                        </th>
+                        <th>&nbsp;Play video!</th>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Gặp nhau</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/IMG_2317.jpg" class="wp1"></div>
+            <div class="col-md-6">
+                <p style="text-align: left">
+                    Tôi gặp Dương lần đầu tiên vào thời gian sau tết năm 2022 khi chúng tôi bắt đầu làm chung dự án tại một công ty.
+                    Ban đầu, khi nhắn tin trao đổi về công việc chúng tôi chưa thể nói chuyện với nhau được vì thái độ lạnh lùng của
+                    tôi, em hỏi gì tôi đáp nấy và dường như
+                    chẳng có mối liên kết gì giữa hai chúng tôi trao đổi với nhau về một vấn đề nào đó. Nhưng khi trao đổi trực tiếp thì
+                    khác, tôi nhiệt tình hơn và tỏ ra rất vui vẻ và thân mật mỗi khi hướng dẫn Dương về một yêu cầu cụ thể nào đó của dự
+                    án,
+                    có lẽ chính cái sự thân thiện ấy đã làm Dương có cái ánh nhìn khác về tôi. Sau đó, cũng nhờ một vài người bạn đồng
+                    nghiệp cùng công ty tích cực đẩy thuyền cùng với sự quyết tâm của tôi, Dương đã đồng ý lời tỏ tình
+                    từ tôi, chúng tôi đã
+                    <a href="https://www.nhaccuatui.com/bai-hat/tu-thich-thich-thanh-thuong-thuong-amee-ft-hoang-dung-the-voice.4SMuP6QAzFQu.html"
+                       style="color: #2196f3;"
+                        target="_blank">"từ thích thích thành yêu yêu rồi thương thương"</a>.
+                </p>
+            </div>
+            <div class="col-md-3 hidden-sm hidden-xs"><img src="img/DSD_0214.jpg" class="wp2"></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/IMG_2317.jpg" class="wp8"></div>
+            <div class="col-sm-4 col-sm-push-2 col-xs-6 hidden-md hidden-lg"><img src="img/DSD_0214.jpg" class="wp9"></div>
+        </div>
+    </div>
+</section>
+
+<section class="events section-padding" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 class="header">Sự kiện</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-sm-12 col-xs-12 leftcol">
+                <div class="wp3">
+                    <p><strong style="color: #2e6da4">ĐÃ DIỄN RA</strong></p>
+
+                    <h5>Lễ Dạm Ngõ <span class="time">11AM - 2PM 18/11/2022</span></h5>
+                    <p>It's one of the oldest traditional Indian pre wedding ceremony where the bride and groom
+                        attend the event together and a professional mehndi artist applies
+                        mehndi to the bride's hands and feet. This will be having a celebratory
+                        festival feel to it with people wearing vibrant clothes and dancing, singing, playing
+                        games and a lot more.</p>
+                </div>
+                <div class="wp5">
+                    <h5>Lễ ăn hỏi <span class="time">9AM - 11AM 12/01/2023</span></h5>
+                    <p>This event is no way close to ethnic. The bride & groom would like to have some "shots before the
+                        knot". With booze flowing down the floor and the western attire on, everyone would be busy
+                        showing off their new moves on the stage which they have finely honed. Lastly, expect some beer
+                        pong matches & karaoke for sure.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 col-xs-12 rightcol">
+                <div class="wp4">
+                    <p><strong style="color: #2e6da4">SẮP TỚI</strong></p>
+
+                    <h5>Lễ cưới <span class="time">24/09/2023</span></h5>
+                    <p>The haldi ceremony is usually held separately for the bride and the groom. This one is for the
+                        bride. It is a low-key event that involves the application of turmeric paste on the hands, legs
+                        and face of the bride. The groom is not allowed to see the bride after this ritual until the
+                        final wedding ceremony starts.</p>
+                </div>
+                <div class="wp6">
+                    <h5>Lễ lại mặt <span class="time"></span></h5>
+                    <p>This is the main event in the entire wedding when the bride and the groom tie the
+                        knot. The groom comes with the barat and is greeted by the bride side with some dhol of course
+                        as maximum number of guests would be attending this event. This is when the couple circle the
+                        sacred fire and are finally declared husband and wife.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row section-padding">
+            <div class="col-md-4 col-md-offset-4 text-center">
+                <a id="gifWedding" class="btn btn-accent btn-small" data-toggle="modal" data-target="#dc-modal" style="color: red;">
+                    <i class="fa fa-gift"></i>&nbsp;&nbsp;Mừng cưới
+                </a>
+            </div>
+        </div>
+        <!--<div class="row">
+            <div class="col-xs-12 section-border section-padding">
+            </div>
+        </div>-->
+    </div>
+
+    <div id="dc-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                </div>
+                <div>
+                    <table>
+                        <td>
+                            <img src="img/tu-qr.jpg" style="width: 50%"><img src="img/duong-qr.jpg" style="width: 50%">
+                        </td>
+                    </table>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="play-vd" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                </div>
+                <video id="video-wedding" loop="" controls="controls" style="width: 100%; height: 100%">
+                    <source type="video/mp4" src="wedding_album.mp4">
+                </video>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+</section>
+
+<section id="instagram" class="section-padding">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3>Một bức ảnh đáng giá ngàn lời nói!</h3>
+                <p>Hãy giúp chúng mình ghi lại khoảnh khắc, gắn thẻ của bạn với hashtag
+                    <a href="https://www.facebook.com/hashtag/tuduongwedding?__eep__=6&amp;__cft__[0]=AZWfaNRgjHNKzciFg_MGdJstDHE2u9tXkXoPd_GfIn4AHE2yqhLdS1k0quaz9Vb-bHTr5cbONH59Oj-Dk4-nWEcBk08C1rDIJHby9bJr_mRlByNEYA8GLqfXzDE_4FhRo3w&amp;__tn__=*NK-R" target="_blank" style="color: #2196f3;">#tuduongwedding</a>
+                </p>
+            </div>
+        </div>
+        <div class="row section-border wp7">
+            <div class="col-md-4 col-md-offset-4">
+                <img src="img/iphone_instagram.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="eng-pics" class="section-padding">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h3 class="header">Ảnh cưới</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2942-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/_RFX2942-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/IMG_3483-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/IMG_3483-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/_RFX2992-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/_RFX2992-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/_RFX3064-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/_RFX3064-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4089-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/NGP_4089-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-2">
+                <a class="fancybox" rel="group" href="img/eng_pics/NGP_4119-lg.jpg">
+                    <div class="img-wrap">
+                        <div class="overlay">
+                            <i class="fa fa-search"></i>
+                        </div>
+                        <img src="img/eng_pics/NGP_4119-sm.jpg" alt=""/>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row hidden-lg hidden-md hidden-xs">
+            <div class="col-xs-12 section-border section-padding"></div>
+        </div>
+    </div>
+    <!--<div class="row">
+        <div class="col-md-12">
+            <div class="diamond floating-logo">
+                <img src="img/sketch-logo.png" alt="Sketch Logo">
+                <div class="ring"></div>
+            </div>
+        </div>
+    </div>-->
+</section>
+
+<section id="video-bg" class="hidden-sm hidden-xs">
+    <div id="bgndVideo" class="player" role="presentation"
+         data-property="{videoURL:'https://youtu.be/5mNWH-ZvDqs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+    </div>
+    <div id="video-content">
+        <h5>Lạng Sơn</h5>
+        <p>Thành phố của niềm tin và hy vọng</p>
+    </div>
+</section>
+
+<section id="map" class="section-padding">
+    <div class="text-center">
+        <h3>Làm thế nào để đến đó?</h3>
+        <p>Đã có google map chỉ đường dẫn lối, bạn đừng lo nhé!</p>
+    </div>
+    <div id="map-canvas">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3702.835841182479!2d106.75892968036776!3d21.863866828441225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x36b54e67391c3d89%3A0x32cfd31e1325ffe0!2zMTM4IFRy4bqnbiBQaMO6LCBUVC4gQ2FvIEzhu5ljLCBDYW8gTOG7mWMsIEzhuqFuZyBTxqFuLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2sus!4v1684850883590!5m2!1svi!2sus" style="border:0;height: 500px; width: 50%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.6569777704817!2d105.7665741!3d21.0464069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313454c445764f63%3A0x2a9e3dc68225026d!2zMjk5IE5nLiA2OCDEkC4gUGjDuiBEaeG7hW4sIFBow7ogRGnhu4VuLCBU4burIExpw6ptLCBIw6AgTuG7mWk!5e0!3m2!1svi!2s!4v1684851072528!5m2!1svi!2s" style="border:0;height: 500px; width: 50%" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <div id="map-content-wrapper" class="container pointer-events-none">
+        <div class="row">
+            <div class="col-xs-offset-1 col-xs-10 col-md-offset-3 col-md-6">
+                <div class="text-center">
+                    <div id="btn-show-content" class="toggle-map-content pointer-events-auto">
+                        <i class="fa fa-info-circle"></i>&nbsp;&nbsp; Thông tin
+                    </div>
+                </div>
+                <div id="map-content" class="pointer-events-auto">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>Địa điểm</h5>
+                            <p>138 Trần Phú, Lạng Sơn <br> 299 Ngõ 68 Phú Diễn, Hà Nội</p>
+                        </div>
+                        <div class="col-md-6">
+                            <h5>Liên lạc</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">0358018966(Mr. Tu)</a><br>
+                                <i class="fa fa-mobile"></i> <a href="tel://+917123456789">0336296001(Ms. Duong)</a></p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-fill btn-small"
+                               href="https://quynhthanhviplimo.com/" target="_top"><i
+                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Đặt xe</a>
+                        </div>
+                        <div class="col-md-6" style="padding: 5px;">
+                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Xem
+                                Map</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="rsvp text-center" id="rsvp">
+
+    <div id="rsvp-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Cảm ơn!</h3>
+                        <p>Sự hiện diện của bạn là niềm vinh dự cho gia đình chúng tôi.</p>
+                        <div id="add-to-cal"></div>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div id="place-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
+                    </button>
+                    <div class="section-padding">
+                        <h3>Hãy chọn!</h3>
+                        <p>Bạn hãy chọn địa điểm dự tiệc cưới.</p>
+                        <label id="add-to-mars-label" class="btn btn-fill btn-small"><i class="fa fa-mars"></i>&nbsp;&nbsp; NHÀ TRAI</label>
+                        <label id="add-to-venus-label" class="btn btn-fill btn-small"><i class="fa fa-venus"></i>&nbsp;&nbsp; NHÀ GÁI</label>
+                    </div>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <h3>Bạn còn chờ gì nữa?</h3>
+                <p>Chúng mình rất mong bạn sẽ phản hồi trước ngày 13 tháng 9 năm 2023</p>
+                <form id="rsvp-form" class="rsvp-form"
+                      action=""
+                      method="POST">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-envelope"></i><input type="text" name="phone" class=""
+                                                                     placeholder="Số điện thoại hoặc facebook"
+                                                                     required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name" class=""
+                                                                 placeholder="Họ tên của bạn"
+                                                                 required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-users"></i><input name="join_at" class="" min="0"
+                                                                  max="4"
+                                                                  placeholder="Dự tiệc cưới tại"
+                                                                  required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
+                                                                class="" min="0"
+                                                                placeholder="Mã code trong thiệp mời"
+                                                                required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12" id="alert-wrapper"></div>
+                    </div>
+                    <button class="btn-fill rsvp-btn">
+                        Có,
+                        Tôi tham dự!
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 text-center content">
+                <span class="to-top-wrapper"><a href="#top" class="to-top"><i class="fa fa-angle-up"></i></a></span>
+                <p>Được tạo ra bởi Tú và rất nhiều <span class="fa fa-heart pulse2"></span> dành cho Dương</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="js/vendor/jquery-1.11.2.min.js" onerror="loadJsFromCDN('jquery.js')"></script>
+<script src="node_modules/waypoints/lib/jquery.waypoints.min.js" onerror="loadJsFromCDN('waypoints.js')"></script>
+<script src="js/jquery.fancybox.pack.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/jquery.flexslider-min.js"></script>
+<script src="js/jquery.mb.YTPlayer.min.js"></script>
+<script src="js/vendor/ouical.js"></script>
+<script src="js/scripts.min.js"></script>
+<script src="js/like-button.js"></script>
+<script src="js/share-button.js"></script>
+<script src="js/flatpickr.js"></script>
+<link rel="stylesheet" href="css/like-button.css">
+<link rel="stylesheet" href="css/play-button.css">
+<!-- Google Analytics -->
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-46465113-4', 'auto');
+    ga('send', 'pageview');
+</script>
+<audio id="audio1" src="LikeMyFather.mp3" loop="true" controls="controls" style="display: none;"></audio>
+</body>
+</html>
