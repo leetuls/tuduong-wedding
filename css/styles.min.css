@@ -413,7 +413,7 @@ section .header {
 
 .fixed {
     position: fixed;
-    background-color: rgba(55, 36, 40, .88);
+    background-color: rgba(147, 52, 52, 0.88);
     z-index: 999;
     width: 100%
 }
@@ -1089,7 +1089,7 @@ body.modal-open {
 }
 
 .text-red {
-    color: #2196f3;
+    color: deeppink;
 }
 #spanWedding {
     cursor:pointer;
