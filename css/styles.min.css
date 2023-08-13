@@ -1105,3 +1105,13 @@ body.modal-open {
         opacity: 0.4;
     }
 }
+.bii-player {
+    bottom: 30px;
+    left: 20px;
+    position: fixed;
+    z-index: 99999;
+}
+
+#svgOn, #svgOff {
+    fill: #df4758;
+}
