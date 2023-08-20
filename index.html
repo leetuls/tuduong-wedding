@@ -196,9 +196,7 @@
                     <br><b>♥ Lời tỏ tình 16/5 ♥</b>
                     <br>
                     Tình yêu đôi khi bắt đầu từ những thứ thật đơn giản. Đơn cử như những bát bún cá và vài vòng công viên Hoà Bình chỉ để nắm lấy tay nhau. Hát lạc cả tông để chuẩn bị cho câu nói “Làm người yêu anh nhé!” Cứ đơn giản vậy thôi mà dần dần chúng tôi đã 
-                    <a id="amee"
-                    style="color: #2196f3;"
-                    data-target="#amee-music">"từ thích thích thành yêu yêu rồi thương thương"</a> lúc nào không hay.
+                    <a id="amee" style="color: #2196f3;">"từ thích thích thành yêu yêu rồi thương thương"</a> lúc nào không hay.
                      Thật tuyệt khi được nghe một lời tỏ tình đúng nghĩa, và tuyệt vời hơn khi đó là người mà mình đem lòng yêu mến.
                 </p>
             </div>
@@ -349,14 +347,12 @@
     <div id="amee-music" class="modal fade" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
             <div class="modal-content" id="amee-dialog">
-                <div class="modal-body">
+                <div class="modal-body" style="height: 50px;">
+                    <a id="spot1" class="play-pause-button fa fa-play"></a>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span>
                     </button>
                 </div>
                 <img src="img/event/amee.jpg" style="width: 100%">
-                <audio id="audio-amee" controls style="width: 50%; margin: 0 auto; display: block;">
-                    <source src="amee.mp3">
-                </audio>
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
@@ -636,6 +632,7 @@
 <script src="js/like-button.js"></script>
 <script src="js/share-button.js"></script>
 <script src="js/flatpickr.js"></script>
+<script src="js/play-amee.js"></script>
 <link rel="stylesheet" href="css/like-button.css">
 <link rel="stylesheet" href="css/play-button.css">
 <!-- Google Analytics -->
@@ -655,5 +652,6 @@
     ga('send', 'pageview');
 </script>
 <audio id="audio1" src="wedding_music.mp3" loop="true" controls="controls" style="display: none;"></audio>
+<audio id="audio-amee" src="amee.mp3" loop="true" controls="controls" style="display: none;"></audio>
 </body>
 </html>
