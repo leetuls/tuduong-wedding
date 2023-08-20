@@ -1115,3 +1115,13 @@ body.modal-open {
 #svgOn, #svgOff {
     fill: #df4758;
 }
+
+#amee-dialog {
+    background-color: #f8f80b;
+    width: 100%;
+    height: 200px;
+}
+
+#amee {
+    cursor:pointer;
+}
