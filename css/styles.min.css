@@ -1129,3 +1129,8 @@ body.modal-open {
 #spot1 {
     cursor: pointer;
 }
+
+.music-center {
+    position: fixed;
+    left: 48%;
+}
